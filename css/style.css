@@ -25,9 +25,11 @@ header {
     z-index: 99;
 }
 
-img {
-    width: 150px;
+.logo-header img {
+    height: 40px;
 }
+
+
 
 .user-action .action {
     display: none;
@@ -80,6 +82,7 @@ img {
 .header-shop-pc {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: sticky;
     top: 0;
 }

@@ -3,7 +3,10 @@
 }
 
 @media screen and (max-width:992px) {
-    
+    .search-header {
+        flex: 1;
+        max-width: 60%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -16,6 +19,13 @@
     }
     .bar-mobile{
         display: block;
+    }
+    .logo2{
+        display: none;
+    }
+    .search-header {
+        flex: 1;
+        max-width: 80%;
     }
 }
 
