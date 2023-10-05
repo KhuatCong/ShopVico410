@@ -75,15 +75,14 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        fade: true,
-        asNavFor: '.slider-nav'
+        asNavFor: '.product-img-nav',
+        arrows:false,
       });
-      $('.slider-nav').slick({
+      $('.product-img-nav').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        asNavFor: '.slider-for',
+        asNavFor: '.product-img-list',
         dots: true,
-        centerMode: true,
         focusOnSelect: true
       });
 

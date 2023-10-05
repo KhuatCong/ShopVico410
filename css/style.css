@@ -91,7 +91,9 @@ header {
     flex: 1;
     max-width: 70%;
 }
-
+.logo-footer img{
+    width: 180px;
+}
 .user-header {
     display: flex;
     align-items: center;
@@ -336,11 +338,13 @@ header {
     border: 1px solid #222647;
     padding: 10px 40px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .product-shopping .xemthem:hover {
     background-color: #222647;
     color: #FFF;
+    transition: all 0.3s ease;
 }
 
 footer {
@@ -391,11 +395,21 @@ footer {
 .box-detail-product {
     background-color: #FFF;
 }
-
+.product-img-list{
+    border: 1px solid #e6e8f3;
+    padding: 5px;
+}
 .product-img-list .item img {
     aspect-ratio: 1;
     width: 100%;
     object-fit: cover;
+}
+.product-img-nav img{
+    width: 100%;
+    aspect-ratio: 1;
+}
+.product-img-nav{
+    margin-top: 10px;
 }
 
 .slick-prev {
