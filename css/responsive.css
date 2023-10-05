@@ -1,0 +1,24 @@
+@media screen and (max-width:1200px) {
+    
+}
+
+@media screen and (max-width:992px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    
+    .user-action{
+        display: none;
+    }
+    .cart-action{
+        display: none;
+    }
+    .bar-mobile{
+        display: block;
+    }
+}
+
+@media screen and (max-width:576px) {
+    
+}

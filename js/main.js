@@ -45,6 +45,30 @@ $(function () {
         slidesToShow: 6,
         slidesToScrol: 1,
         speed: 800,
+        arrows:false,
+        responsive:[
+            {
+                breakpoint:992,
+                settings:{
+                    slidesToShow:4,
+                    slidesToScrol:1,
+                }
+            },
+            {
+                breakpoint:768,
+                settings:{
+                    slidesToShow:3,
+                    slidesToScrol:1,
+                }
+            },
+            {
+                breakpoint:576,
+                settings:{
+                    slidesToShow:2,
+                    slidesToScrol:1,
+                }
+            },
+        ]
     })
 
     $('.product-img-list').slick({
@@ -86,3 +110,13 @@ if ($('#back-to-top').length) {
     });
 
 }
+
+function openMenu() {
+    document.getElementById("menu-mobile").style.width = "100%";
+    document.getElementById("menu-mobile").style.padding="30px";
+  }
+  
+  function closeMenu() {
+    document.getElementById("menu-mobile").style.width = "0%";
+    document.getElementById("menu-mobile").style.padding="0px";
+  }
