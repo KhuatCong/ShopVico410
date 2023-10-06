@@ -131,7 +131,8 @@ header {
 
 .item-banner img {
     width: 100%;
-    aspect-ratio: 2.7;
+    aspect-ratio: 2.5;
+    object-fit: cover;
 }
 
 .category-slide {
