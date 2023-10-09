@@ -747,7 +747,7 @@ footer {
     margin-right: 10px;
 }
 .list-item .item{
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid #cacaca;
     display: flex;
     align-items: center;
@@ -790,7 +790,95 @@ footer {
     border-bottom: 1px solid #cacaca;
     font-size: 24px;
 }
-.list-cart-item button{
-    width: 100%;
+.list-cart-item a{
+    margin-top: 10px;
+}
+.total-tamtinh{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 1px solid #f0eeee;
+}
+.total-thanhtoan{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 2px solid #cacaca;
+}
+.total-thanhtoan .price-value{
+    color: red;
+    font-size: 24px;
+}
+.info-user-pay .title{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cacaca;
+    font-weight: 500;
+}
+.info-cart .title{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cacaca;
+    font-weight: 500;
+}
+.item-cart-ckeckout .item-checkout{
+    padding: 10px 10px 15px 10px;
+    display: flex;
+    border-bottom: 1px solid #cacaca;
+}
+.item-checkout{
+    border-bottom: 1px solid #f0eeee;
+}
+
+.item-cart-ckeckout img{
+    width: 90px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+.item-cart-ckeckout .img{
+    margin-right: 10px;
+}
+.item-cart-ckeckout .body a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: justify;
+}
+.quantity-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.total-check{
+    display: flex;
+}
+.total-check .price-new{
+    font-weight: 500;
+}
+.ship{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.total-checkout .total-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+.total-checkout .total-order .order-value{
+    color: red;
+    font-size: 24px;
+}
+.btn-checkout{
+    margin-top: 10px;
+}
+.total-order{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
     margin-top: 10px;
 }
