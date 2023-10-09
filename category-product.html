@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Trang chủ</title>
+    <title>Danh mục</title>
 </head>
 
 <body>
@@ -64,6 +64,26 @@
         </div>
     </header>
 
+    
+    
+    <!-- menu bar mobile -->
+    <div id="menu-mobile" class="menu-mobile">
+        <div onclick="closeMenu()" id="close-mobile" class="close-mobile">
+            <i class="fa-solid fa-xmark fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <ul class="ul-reset">
+            <li>
+                <a href=""><i class="fa-solid fa-user me-2" style="color: #ffffff;"></i>Thông tin tài khoản</a>
+            </li>
+            <li>
+                <a href=""><i class="fa-solid fa-cart-shopping me-2" style="color: #ffffff;"></i>Giỏ hàng của bạn</a>
+            </li>
+            <li>
+                <a href=""><i class="fa-solid fa-right-from-bracket me-2" style="color: #ffffff;"></i>Đăng xuất</a>
+            </li>
+        </ul>
+    </div>
+
     <section class="content">
         <!-- breadcrumb mô tả -->
         <div class="container">
@@ -71,11 +91,12 @@
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house me-2"
                                 style="color: var(--base-color);"></i>Trang chủ</a></li>
-                    <li class="breadcrumb-item active">Tất cả sản phẩm</li>
+                    <li class="breadcrumb-item active">Tên danh mục</li>
                 </ul>
             </div>
         </div>
 
+        <!-- Danh sách sản phẩm theo danh mục sản phẩm -->
         <div class="container mt-4">
             <div class="row gx-2">
                 <div class="col-md-3 col-lg-2">
@@ -283,23 +304,6 @@
             </div>
         </div>
     </section>
-
-    <div id="menu-mobile" class="menu-mobile">
-        <div onclick="closeMenu()" id="close-mobile" class="close-mobile">
-            <i class="fa-solid fa-xmark fa-2xl" style="color: #ffffff;"></i>
-        </div>
-        <ul class="ul-reset">
-            <li>
-                <a href=""><i class="fa-solid fa-user me-2" style="color: #ffffff;"></i>Thông tin tài khoản</a>
-            </li>
-            <li>
-                <a href=""><i class="fa-solid fa-cart-shopping me-2" style="color: #ffffff;"></i>Giỏ hàng của bạn</a>
-            </li>
-            <li>
-                <a href=""><i class="fa-solid fa-right-from-bracket me-2" style="color: #ffffff;"></i>Đăng xuất</a>
-            </li>
-        </ul>
-    </div>
 
     <footer class="footer">
         <div class="container">

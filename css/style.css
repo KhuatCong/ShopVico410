@@ -725,3 +725,72 @@ footer {
     color: #FFF;
     transition: all 0.3s ease;
 }
+.box-item-cart{
+    background-color: #fff;
+    
+}
+.list-cart-item .title{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #f0eeee;
+}
+.box-total-cart{
+    background-color: #fff;
+}
+.list-item .img img{
+    width: 90px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+.list-item .img{
+    margin-right: 10px;
+}
+.list-item .item{
+    padding: 10px;
+    border-bottom: 1px solid #cacaca;
+    display: flex;
+    align-items: center;
+}
+.list-item .box-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+} 
+.list-item .body{
+    flex: 1;
+    margin-right: 20px;
+}
+.list-item .name-product{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.list-item .price{
+    display: flex;
+    align-items: center;
+}
+.list-item .quantity{
+    display: flex;
+}
+.list-item .quantity input{
+    border: none;
+    width: 50px !important;
+}
+.total-price{
+    color: red;
+    font-weight: 500;
+}
+.box-total-cart .total{
+    color: red;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid #cacaca;
+    font-size: 24px;
+}
+.list-cart-item button{
+    width: 100%;
+    margin-top: 10px;
+}
