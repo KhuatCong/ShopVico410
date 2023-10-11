@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/back-to-top.css">
+    <link rel="icon" href="img/logo/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tài khoản của bạn</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-shop-pc">
+                <div class="logo-header">
+                    <a href="index.html" title="Shop Xbox">
+                        <img src="img/logo/logo1.png" alt="">
+                        <img class="logo2" src="img/logo/logo2.png" alt="">
+                    </a>
+                </div>
+                <div class="search-header">
+                    <form action="" class="search-form">
+                        <div class="input-group">
+                            <input type="text" placeholder="Tìm kiếm sản phẩm" class="form-control">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="user-header">
+                    <div class="user-action">
+                        <div class="user">
+                            <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                            <!-- <i class="fa-solid fa-caret-down" style="color: #ffffff;"></i> -->
+                        </div>
+                        <ul id="ul-action" class="action ul-reset">
+                            <li><a href=""><i class="fa-solid fa-user me-1" style="color: #ffffff;"></i>Thông tin tài
+                                    khoản</a></li>
+                            <li><a href=""><i class="fa-solid fa-right-from-bracket me-1"
+                                        style="color: #ffffff;"></i>Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                    <div class="cart-action">
+                        <a href="">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                        </a>
+                        <span class="badge">0</span>
+                    </div>
+                    <div onclick="openMenu()" id="bar-mobile" class="bar-mobile">
+                        <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container mt-4">
+            <h1>Đây là trang thông tin tài khoản của bạn</h1>
+            <h4 class="text-danger">Updating...</h4>
+        </div>
+    </section>
+
+    <div id="menu-mobile" class="menu-mobile">
+        <div onclick="closeMenu()" id="close-mobile" class="close-mobile">
+            <i class="fa-solid fa-xmark fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <ul class="ul-reset">
+            <li>
+                <a href=""><i class="fa-solid fa-user me-2" style="color: #ffffff;"></i>Thông tin tài khoản</a>
+            </li>
+            <li>
+                <a href=""><i class="fa-solid fa-cart-shopping me-2" style="color: #ffffff;"></i>Giỏ hàng của bạn</a>
+            </li>
+            <li>
+                <a href=""><i class="fa-solid fa-right-from-bracket me-2" style="color: #ffffff;"></i>Đăng xuất</a>
+            </li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="logo-footer">
+                        <a href="index.html">
+                            <img src="img/logo/logo-footer.png" alt="">
+                        </a>
+                        <div class="fw-bolder my-3">
+                            CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG VICO NEXT
+                        </div>
+                        <ul class="ul-reset">
+                            <li><a href=""><i class="fa-solid fa-location-dot me-3"
+                                        style="color: var(--base-color);"></i>Địa chỉ: Số 27 LK11, Khu đô thị Xa La, Hà
+                                    Đông, Hà Nội</a></li>
+                            <li><a href=""><i class="fa-solid fa-envelope me-2" style="color: var(--base-color);"></i>
+                                    Email: viconext@vico.vn</a></li>
+                            <li><a href=""><i class="fa-solid fa-mobile-screen me-3"
+                                        style="color: var(--base-color);"></i>Hotline: 0918585505</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-6">
+                    <div class="title">
+                        Liên kết nhanh
+                    </div>
+                    <ul class="ul-reset">
+                        <li><a href="">Về chúng tôi</a></li>
+                        <li><a href="">Hướng dẫn</a></li>
+                        <li><a href="">Hỏi đáp</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="">Bảng giá</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-6">
+                    <div class="title">
+                        Hỗ trợ
+                    </div>
+                    <ul class="ul-reset">
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Chính sách vận chuyển</a></li>
+                        <li><a href="">Chính sách bảo hành và đổi trả</a></li>
+                        <li><a href="">Chính sách bảo mật thông tin</a></li>
+                        <li><a href="">Diểu khoản điều kiện</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="title">
+                        Theo dõi & mua hàng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy-right">
+        © 2023 Copyright by Xbox. All rights reserved
+    </div>
+
+    <div id="back-to-top" title="Back to Top">&Hat;</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
