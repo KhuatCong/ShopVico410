@@ -111,6 +111,18 @@ header {
     padding: 6px 8px;
     border-radius: 3px;
 }
+.user{
+    background-color: #99CCFF;
+    border-radius: 5px;
+}
+.user span{
+    color: #fff;
+    padding-right: 5px;
+}
+.user:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+}
 
 .cart-action i {
     background-color: #336699;
