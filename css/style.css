@@ -242,7 +242,7 @@ header {
 
 .item-sell-product .img {
     position: relative;
-    border: 5px solid pink;
+    border: 5px solid var(--base-color);
 }
 
 .item-sell-product .body a {
