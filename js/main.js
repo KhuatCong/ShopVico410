@@ -1,4 +1,18 @@
 $(function () {
+
+    $(".toggle-password").click(function() {
+
+        $(this).toggleClass("fa-eye fa-eye-slash");
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+          input.attr("type", "text");
+        } else {
+          input.attr("type", "password");
+        }
+      });
+
+
+
     $('.user').click(function () {
         $('.action').toggle();
     })
@@ -156,8 +170,8 @@ function closeMenu() {
     document.getElementById("menu-mobile").style.padding = "0px";
 }
 
-// chọn tỉnh, thành phố
 
+// chọn tỉnh, thành phố
 if (address_2 = localStorage.getItem('address_2_saved')) {
   $('select[name="calc_shipping_district"] option').each(function() {
     if ($(this).text() == address_2) {

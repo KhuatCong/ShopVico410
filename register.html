@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Đăng nhập</title>
+    <title>Đăng ký</title>
 </head>
 
 <body>
@@ -88,49 +88,42 @@
                     <div class="col-lg-6 offset-lg-3">
                         <div class="card shadow">
                             <div class="card-header">
-                                Đăng nhập
+                                Đăng ký tài khoản mới
                             </div>
                             <form action="">
                                 <div class="card-body">
                                     <div class="input-group">
-                                        <span class="input-group-text">
-                                            <i class="fa-solid fa-user" style="color: #000000;"></i>
-                                        </span>
-                                        <input type="text" class="form-control"
-                                            placeholder="Số điện thoại hoặc email *">
+                                        <input type="text" class="form-control" placeholder="Email *">
                                     </div>
                                     <div class="input-group mt-4">
-                                        <span class="input-group-text">
-                                            <i class="fa-solid fa-lock"></i>
-                                        </span>
+                                        <input type="text" class="form-control" placeholder="Số điện thoại *">
+                                    </div>
+                                    <div class="input-group mt-4">
                                         <input id="password-field" type="password" class="form-control" placeholder="Mật khẩu *">
                                         <span class="input-group-text">
                                             <span toggle="#password-field"
                                                 class="fa fa-fw fa-eye field-icon toggle-password"></span>
                                         </span>
                                     </div>
-                                    <div class="form-check mt-3">
-                                        <input type="checkbox" class="form-check-input">
-                                        <label class="form-check-label" for="">Nhớ mật khẩu</label>
+                                    <div class="input-group mt-4">
+                                        <input id="password-field2" type="password" class="form-control" placeholder="Nhập lại mật khẩu *">
+                                        <span class="input-group-text">
+                                            <span toggle="#password-field2"
+                                                class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                        </span>
                                     </div>
+
                                 </div>
                                 <div class="card-footer">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-5">
-                                            <button class="btn btn-dark text-uppercase">Đăng nhập</button>
-                                        </div>
-                                        <div class="col-lg-7 mt-3 mt-lg-0 text-end text-small">
-                                            <a class="forgot-p" href="">Quên mật khẩu?</a>
-                                        </div>
-                                    </div>
+                                    <button class="btn btn-dark text-uppercase">Đăng ký</button>
                                 </div>
                             </form>
                             <div class="card-line">
                                 <span>Hoặc</span>
                             </div>
                             <div class="text-center pb-5">
-                                <a class="btn btn-outline-dark px-5" style="border-radius: 24px;"
-                                    href="register.html">Tạo tài khoản ngay</a>
+                                <a class="btn btn-outline-dark px-5" style="border-radius: 24px;" href="login.html">Đăng
+                                    nhập ngay</a>
                             </div>
                         </div>
                     </div>
