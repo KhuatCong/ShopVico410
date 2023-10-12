@@ -29,6 +29,12 @@
     }
 }
 
-@media screen and (max-width:576px) {
-    
+@media screen and (min-width:769px) {
+    .menu-mobile{
+        display: none;
+    }
+    .opacity-mobile{
+        display: none;
+    }
 }
+

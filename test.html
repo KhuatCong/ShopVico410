@@ -5,29 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Trang chủ</title>
+    <style>
+        .box-test{
+            display: none;
+            width: 80%;
+            text-wrap: nowrap;
+        }
+        .overlay{
+            width: 20%;
+            height: 100%;
+            background-color: rgba(128, 128, 128, 0.303);
+            position: fixed;
+            top: 0;
+            right:0;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div class="dropdown">
-        <button class="btn btn-success" data-bs-toggle="dropdown">Xem thêm</button>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item">1</li>
-            <li class="dropdown-item">2</li>
-        </ul>
-    </div>
-
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown button
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
+    <div class="container">
+        <div class="box">
+            <div class="div">
+                <button id="down" class="btn btn-danger">Down</button>
+            </div>
+            <div class="box-test">
+                <div>
+                    <button id="up" class="btn btn-success">Up</button>
+                </div>
+                <div class="logo-test">
+                    <a href="">
+                        <img src="img/logo/logo-footer.png" alt="">
+                    </a>
+                </div>
+                <ul class="ul-reset">
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Hỗ trợ</a></li>
+                </ul>
+            </div>
+            <div class="overlay">a</div>
+        </div>
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -35,6 +56,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#box-test').animate({width:'toggle'})
+            $('#down').click(function(){
+                $('.box-test').animate({width:'toggle'})
+                // $('.box-test').slideToggle('slow');
+            })
+
+            $('#up').click(function(){
+                $('.box-test').slideUp('slow');
+            })
+        })
+    </script>
 </body>
 
 </html>

@@ -71,63 +71,90 @@
                     <div class="menu-user">
                         <ul class="ul-reset">
                             <li><a href="account.html"><i class="fa-regular fa-user me-2"></i>Tài khoản của tôi</a></li>
-                            <li><a href="history-order.html"><i class="fa-regular fa-rectangle-list me-2"></i>Lịch sử mua hàng</a></li>
-                            <li><a href="index.html"><i class="fa-solid fa-right-from-bracket me-2"></i>Thoát tài khoản</a></li>
+                            <li><a href="history-order.html"><i class="fa-regular fa-rectangle-list me-2"></i>Lịch sử
+                                    mua hàng</a></li>
+                            <li><a href="index.html"><i class="fa-solid fa-right-from-bracket me-2"></i>Thoát tài
+                                    khoản</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <div class="content-box-user">
+                    <div class="content-box-order mt-lg-0 mt-4">
                         <div class="title">
-                            Thông tin cá nhân của bạn
+                            Danh sách đơn hàng của bạn
                         </div>
-                        <div class="box-avatar">
-                            <div class="avatar">
-                                <img id="img-preview" src="img/avatar/avatar.webp" alt="">
-                            </div>
-                            <div class="input-avatar">
-                                <input type="file" name="" id="file-input">
-                            </div>
-                        </div>
-                        <div class="box-info-user mt-4">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="info-user">
-                                        <h4 class="text-center">Thông tin tài khoản</h4>
-                                        <form action="">
-                                            <div class="input-group">
-                                                <input class="form-control" type="text" value="Khuất Phú Công" placeholder="Tên hiển thị">
-                                            </div>
-                                            <div class="input-group mt-3">
-                                                <input class="form-control" type="text" value="admin123@gmail.com" placeholder="Email">
-                                            </div>
-                                            <div class="input-group mt-3">
-                                                <input class="form-control" type="text" value="0366332897" placeholder="Điện thoại">
-                                            </div>
-                                            <div class="input-group mt-3">
-                                                <input class="form-control" type="text" value="Hà Nội" placeholder="Address">
-                                            </div>
-                                            <button class="btn btn-success mt-4">Cập nhật</button>
-                                        </form>
+                        <div class="box-order">
+                            <div class="search-order">
+                                <div class="row">
+                                    <div class="col-lg-4 col-6">
+                                        <div class="filter">
+                                            <form action="">
+                                                <div class="input-group-sm">
+                                                    <label class="mb-1" for="">Trạng thái đơn hàng</label>
+                                                    <select class="form-select" name="" id="">
+                                                        <option value="">Tất cả đơn hàng</option>
+                                                        <option value="">Đang xử lí</option>
+                                                        <option value="">Đang giao hàng</option>
+                                                        <option value="">Đã giao</option>
+                                                        <option value="">Đã hủy</option>
+                                                    </select>
+                                                </div>
+                                                <button type="submit" class="btn btn-success mt-2">Tìm kiếm</button>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="info-pass mt-md-0 mt-4">
-                                        <h4 class="text-center">Đổi mật khẩu</h4>
-                                        <form action="">
-                                            <div class="input-group">
-                                                <input class="form-control" type="text" placeholder="Nhập mật khẩu cũ">
-                                            </div>
-                                            <div class="input-group mt-3">
-                                                <input class="form-control" type="text" placeholder="Nhập mật khẩu mới">
-                                            </div>
-                                            <div class="input-group mt-3">
-                                                <input class="form-control" type="text"
-                                                    placeholder="Nhập lại mật khẩu mới">
-                                            </div>
-                                            <button class="btn btn-danger mt-4">Đổi mật khẩu</button>
-                                        </form>
-                                    </div>
+                            </div>
+                            <p class="mt-2">Có tất cả <span style="font-weight: bold;">0</span> đơn hàng</p>
+                            <div class="list-order mt-4">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead class="text-truncate table-primary text-center">
+                                            <tr>
+                                                <th>Mã ĐH</th>
+                                                <th>Ngày đặt</th>
+                                                <th>Tổng tiền (VNĐ)</th>
+                                                <th>Trạng thái</th>
+                                                <th style="min-width: 200px;">Ghi chú</th>
+                                                <th>Hành động</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>dh12345dkhdjhasdadddddddddddddddđdddd</td>
+                                                <td>22/06/2022 14:03</td>
+                                                <td>11,200,000</td>
+                                                <td>Đang giao hàng</td>
+                                                <td>Hàng dễ vỡ</td>
+                                                <td>
+                                                    <a href="">Xem</a>
+                                                    <a href="">Hủy</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>dh12345dkhdjhasda</td>
+                                                <td>22/06/2022</td>
+                                                <td>11,200,000</td>
+                                                <td>Đang giao hàng</td>
+                                                <td>Hàng dễ vỡ</td>
+                                                <td>
+                                                    <a href="">Xem</a>
+                                                    <a href="">Hủy</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>dh12345dkhdjhasda</td>
+                                                <td>22/06/2022</td>
+                                                <td>11,200,000</td>
+                                                <td>Đang giao hàng</td>
+                                                <td>Hàng dễ vỡ</td>
+                                                <td>
+                                                    <a href="">Xem</a>
+                                                    <a href="">Hủy</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
