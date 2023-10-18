@@ -7,9 +7,13 @@
 :root {
     --base-color: #3399cc;
 }
+@font-face{
+    font-family: myFont;
+    src: url(/font/RobotoCondensed-Regular.ttf);
+}
 body {
     background-color: #f5f5f5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:myFont;
 }
 
 header {
@@ -38,6 +42,9 @@ header {
     right: 50px;
     background-color: var(--base-color);
     font-size: 14px;
+}
+.item-product-shopping .img{
+    position: relative;
 }
 
 .cart-action:hover ul {
@@ -1051,3 +1058,4 @@ footer {
 .info-detail-order{
     padding: 20px;
 }
+
