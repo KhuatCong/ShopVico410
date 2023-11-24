@@ -35,6 +35,12 @@ $(function () {
         ]
     });
 
+    $('.banner-slide').slick({
+        autoplay:true,
+        autoplaySpeed:2000,
+        arrows:false,
+    });
+
     $('.tintuc-slide-home').slick({
         slidesToShow: 3,
         responsive: [
