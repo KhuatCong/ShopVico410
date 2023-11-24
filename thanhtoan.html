@@ -94,14 +94,19 @@
                                 </div>
                             </div>
                             <div class="row gx-2 form-group mb-3">
-                                <div class="col-6">
-                                    <select class="form-select" name="calc_shipping_provinces" id="">
-                                        <option value=""></option>
+                                <div class="col-4">
+                                    <select class="form-select" name="calc_shipping_provinces" id="city">
+                                        <option value="">Chọn thành phố</option>
                                     </select>
                                 </div>
-                                <div class="col-6">
-                                    <select class="form-select" name="calc_shipping_district" id="">
-                                        <option value=""></option>
+                                <div class="col-4">
+                                    <select class="form-select" name="calc_shipping_district" id="district">
+                                        <option value="">Chọn quận huyện</option>
+                                    </select>
+                                </div>
+                                <div class="col-4">
+                                    <select class="form-select" name="calc_shipping_district" id="ward">
+                                        <option value="">Chọn xã phường</option>
                                     </select>
                                 </div>
                             </div>
@@ -309,7 +314,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 </body>
